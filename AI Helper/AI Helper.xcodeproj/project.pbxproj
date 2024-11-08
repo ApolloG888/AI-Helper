@@ -14,22 +14,9 @@
 		5FA46CF02CDEC30F00073411 /* AI Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		5FA46D792CDECDF200073411 /* Exceptions for "AI Helper" folder in "AI Helper" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 5FA46CEF2CDEC30F00073411 /* AI Helper */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5FA46CF22CDEC30F00073411 /* AI Helper */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				5FA46D792CDECDF200073411 /* Exceptions for "AI Helper" folder in "AI Helper" target */,
-			);
 			path = "AI Helper";
 			sourceTree = "<group>";
 		};

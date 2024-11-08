@@ -17,7 +17,7 @@ final class AppDelegate: NSObject, UIApplicationDelegate {
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
     ) -> Bool {
         
-//        PurchaseManager.instance.activate()
+        PurchaseManager.instance.activate()
         
         // Request tracking transparency
         requestTrackingPermission()
