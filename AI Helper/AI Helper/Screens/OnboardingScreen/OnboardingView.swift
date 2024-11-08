@@ -13,7 +13,9 @@ struct OnboardingView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                
+                Text("Hello")
+                    .font(.firaSans(type: .regular400, size: 30))
+                    .foregroundStyle(.black)
             }
         }
     }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>We use your data to provide personalized ads and improve your experience.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Roboto-Thin.ttf</string>
+		<string>Roboto-Regular.ttf</string>
+		<string>Roboto-Medium.ttf</string>
+		<string>Roboto-Light.ttf</string>
+		<string>Roboto-Bold.ttf</string>
+		<string>Roboto-Black.ttf</string>
+		<string>FiraSans-Thin.ttf</string>
+		<string>FiraSans-SemiBold.ttf</string>
+		<string>FiraSans-Regular.ttf</string>
+		<string>FiraSans-Medium.ttf</string>
+		<string>FiraSans-Bold.ttf</string>
+		<string>FiraSans-Light.ttf</string>
+	</array>
+</dict>
+</plist>
