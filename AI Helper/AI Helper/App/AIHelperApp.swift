@@ -9,12 +9,13 @@ import SwiftUI
 
 @main
 struct AIHelperApp: App {
-    let persistenceController = PersistenceController.shared
+
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    @AppStorage("isFirstLaunch") var isFirstLaunch: Bool = true
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            OnboardingView()
         }
     }
 }
